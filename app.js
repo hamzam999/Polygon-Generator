@@ -8,6 +8,7 @@ const circleradius = 200;
 
 function show() {
   const n = input.value;
+  n = Math.round(n)
   if (n > 2) {
     context.clearRect(0, 0, 450, 430)
     var angle = (2 * Math.PI) / n
